@@ -1,0 +1,166 @@
+content{
+	width: 100%;
+	height: 1760px;
+	float: left;
+	position: relative;
+	top: -220px;	
+	margin:0 auto;		
+}
+.tishi{
+	width: 1000px;
+	height: 40px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 15px;
+	line-height: 40px;
+	font-size: 14px;		
+}
+.tishi a{
+	color: #603913;
+}
+.tishi a:hover{
+	text-decoration: underline;
+}
+h1{
+	width: 1000px;
+	height: 40px;
+	
+	margin: 0 auto;	
+}
+.shenghuo{
+	width: 1000px;
+	height: 329px;		
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.sh_content{
+	width: 1000px;
+	height: 275px;
+	float: left;
+}
+.sh_pic{
+	width: 400px;
+	height: 275px;
+	float: left;
+	margin-left: 67px;	
+}
+.sh_picture{
+	width: 400px;
+	height: 275px;
+	float: left;
+}
+.sh_hidden{
+	width: 380px;
+	height: 255px;
+	background: #603913;
+	opacity: 0.8;
+	border: 10px solid black;
+	position: relative;
+	top: -279px;	
+	display: none;
+}
+.sh_picture:hover .sh_hidden{
+	display: block;
+}
+h2{
+	margin-top: 20px;
+	margin-left: 20px;	
+	color: white;
+}
+.sh_text{
+	width: 340px;
+	height: 170px;
+	float: left;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 70px;		
+}
+.sh_text a{
+	color: white;
+}
+.sh_text a:hover{
+	text-decoration: underline;
+}
+.w_content{
+	width: 900px;
+	height: 740px;
+	float: none;	
+	margin: 0 auto;
+}
+.w_title{
+	width: 870px;
+	height: 24px;
+	float: left;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.w_jiantou{
+	width: 30px;
+	height: 53px;
+	margin-top: 316px;
+	float: left;  
+}
+.w_center{
+	width: 840px;
+	height: 686px;	
+	float: left;  	
+}
+.w_neirong{
+	width: 210px;
+	height: 325px;
+	float: left;
+	margin-bottom: 30px;  
+}
+.w_nr_pic{
+	width: 210px;
+	height: 210px;
+	float: left;
+	margin-bottom: 15px;
+}
+h3{
+	width: 210px;
+	height: 22px;
+	font-size: 16px;
+	float: left;
+	line-height: 22px;
+	color: black;   
+	}
+.w_nr_text{
+	width: 210px;
+	height: 50px;
+	float: left;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 6px;  	
+}
+.w_quan{
+	width: 75px;
+	height: 22px;
+	font-size: 16px;
+	float: right;
+	line-height: 22px;
+}
+.w_quan a{
+	color: black;
+}
+.w_quan a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

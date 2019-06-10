@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Canvas - Drawing</title>
+<style>
+  #myCanvas {
+            border: 1px green solid;
+  }
+  body{
+  background-image: url(images/loginback1.jpg);
+  }
+  canvas,#img1{
+  	background: white;
+  }
+  #draw{
+  	margin-top: 110px;
+  	margin-left: 100px;
+  }
+</style>
+</head>
+<body>
+	<div align="center" id="draw">
+		画笔顏色
+<input type="color" id="color1">
+画笔粗細
+<input type="number" min="2" max="20" step="2" id="number1" value="2">
+<br />
+
+<canvas id="myCanvas" width="1080px" height="500px"
+       onmousedown="start(event)" onmousemove="drawing(event)"
+        onmouseup="end()" onmouseout="end()"
+        >
+</canvas>
+<br>
+<input  type="button" value="清除" id="buttonClear" onclick="myclear()">
+<input type="button" value="儲存" id="buttonSave" onclick="save1()">
+<br>
+<img id="img1" />
+	</div>
+
+</body>
+<script type="text/javascript">
+    var c=document.getElementById("myCanvas");
+    var cxt=null;
+    function start(e) {
+        cxt=c.getContext("2d");
+        cxt.beginPath();
+        cxt.strokeStyle = color1.value;
+        cxt.lineWidth = number1.value;
+        cxt.moveTo(e.clientX - c.offsetLeft ,e.clientY - c.offsetTop);
+    }
+    function drawing(e) {
+        if(cxt != null){
+            cxt.lineTo(e.clientX - c.offsetLeft ,e.clientY - c.offsetTop);
+            cxt.stroke();
+        }
+    }
+    function end() {
+        cxt=null;
+    }
+    function myclear() {
+        img1.src ="";
+        cxt=c.getContext("2d").clearRect(0,0,c.width,c.height);
+        color1.value ="#000000";
+        number1.value =2;
+
+    }
+    function save1() {
+        img1.src = c.toDataURL();
+    }
+
+
+</script>
+
+</html>

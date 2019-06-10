@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ALL */
+* {
+	font-size:18px;
+	font-family:"微軟正黑體";
+}
+
+/* H2 */
+H2 {
+	font-size:24px;
+}
+
+/* Body */
+body {
+	height:100%;
+}
+
+/* form */
+form {
+	padding:0px;
+	margin:0px;
+}
+
+/* 超連結 */
+a {
+	text-decoration:none;
+}
+
+/* 主表格 */
+#table_main {
+	background-color: #FFFFFF;
+	width: 800px;
+	margin: 0px auto;
+	padding: 0px;
+	height: 100%;
+	border:#66CCFF solid 1px;
+}
+
+/* 頁首 */
+#header {
+	height:200px;
+	background:url(images/main.png) no-repeat;
+}
+
+/* 內文 */
+#content {
+	padding:20px;
+	vertical-align:top;
+}
+
+/* 頁尾 */
+#footer {
+	height:30px;
+	background:#95D9FD;
+}
+
+/* 報名表單 */
+.user_data {
+	border:#CCCCCC dashed 1px;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+	
+	clear:both;
+}
+
+/* 報名人數 */
+.user_num {
+	text-align:center;
+	
+}

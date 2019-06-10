@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>注册表单</title>
+		<link rel="stylesheet" href="from.css" type="text/css" />
+		<style type="text/css">
+			span {
+				color: red;
+			}
+			
+			h1,
+			form {
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>注册  Sign up</h1>
+		<form action="resume.html" name="register" method="post" id="register" onsubmit="return login()">
+			<p>姓名：<input type="text" name="lastname" size="20" required placeholder="请输入姓名"><br /><span>*不能为空</span></p>
+			<p>姓氏：<input type="text" name="firstname" size="20" required placeholder="请输入姓氏"><br /><span>*不能为空</span></p>
+			<p>登录名：<input type="text" name="username" size="18" required placeholder="请输入登入名" pattern="^[A-z]{3}\d{3}$"><br />
+				<span>*必须符合由连续的三个字符和三个数字组成</span></p>
+			<p>密码：<input type="password" name="userpassword" id="upd" size="20" maxlength="8" required placeholder="请输入密码"><span>*不能为空</span></p>
+			<p>再次输入密码：<input type="password" name="useragainpassword" id="uapd" size="20" maxlength="8" required placeholder="请再次输入密码"><br />
+				<span>*必须和密码相同</span></p>
+			<p>性别：<input type="radio" name="sex" id="sex" checked>男 <input type="radio" name="sex" id="sex">女</p>
+			<p>email：<input type="email" name="email" required placeholder="请输入邮箱"><br />
+				<span>*必须输入正确的邮件格式</span></p>
+			<p>年龄：<input type="number" max="50" min="10" required><br />
+				<span>*年龄必须在10-50岁之间进行选择输入</span></p>
+			<p>你喜欢的颜色：<input type="color"></p>
+			<p>你的个人主页：<input type="url" required placeholder="请输入密网址"><br />
+				<span>*输入正确的个人主页的网址</span></p>
+			<p>友情链接：<input type="text" list="namelist" id="input" required placeholder="请输入网址"/>
+				<datalist id="namelist">
+		    	<option>http://www.baidu.com</option>
+		    	<option>http://www.w3cschool.cn</option>
+		    	<option>http://www.geoogle.com</option>
+		    	<option>http://www.blog.net</option>
+		    </datalist><br />
+				<span>*使用datalist定义输入域的选项列表</span></p>
+			<p>出生年月日：<input type="date" name="date" required></p>
+			<p>专业：<input type="text" required placeholder="请输入您的专业方向"></p>
+			<p><input type="reset" value="重填">&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" id="regs" value="同意以下服务条款，提交注册信息"></p>
+
+		</form>
+		</div>
+
+	</body>
+
+</html>
+<script>
+	function login() {
+		var pwd = document.getElementById("upd").value;
+		var pwdc = document.getElementById("uapd").value;
+		if(pwdc != pwd) {
+			alert("必须和密码相同");
+			return false;
+		} else {
+
+			return true;
+		}
+
+	}
+</script>

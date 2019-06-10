@@ -1,0 +1,120 @@
+content{	
+	width: 100%;
+	height: 4165px;
+	float: left;
+	position: relative;
+	top: -220px;	
+	margin: 0 auto;		
+}
+.tishi{
+	width: 1000px;
+	height: 40px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 15px;
+	line-height: 40px;
+	font-size: 14px;
+	margin-bottom: 30px;		
+}
+.tishi a{
+	color: #603913;
+}
+.tishi a:hover{
+	text-decoration: underline;
+}
+.box_content{
+	width: 880px;
+	height: 400px;
+	float: none;	
+	margin: 0 auto;
+
+}
+.box_left{
+	width: 400px;
+	height: 400px;
+	float: left;
+	position: relative;	
+	background: black;
+	margin-bottom: 50px;
+}
+.box_l_pic{
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+.box_l_text{
+	width: 400px;
+	height: 400px;
+	float: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+	display: none;
+	cursor: pointer;
+}
+.box_l_pic:hover .box_l_text{
+	display: block;
+}
+.shoucang{
+	width: 110px;
+	height: 28px;
+	float: right;
+	position: relative;
+	top: -45px;
+}
+.sc_pic01{
+	width: 28px;
+	height: 28px;
+	float: left;
+}
+.sc_pic02{
+	width: 28px;
+	height: 28px;
+	float: left;
+	/*display: none;*/
+    position: relative;
+    top: -28px;
+}
+
+.sc_text{
+	width: 60px;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+	color: white;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

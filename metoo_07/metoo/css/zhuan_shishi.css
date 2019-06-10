@@ -1,0 +1,186 @@
+content{	
+	width: 100%;
+	height: 1568px;
+	float: left;
+	position: relative;
+	top: -220px;	
+	margin:0 auto;		
+}
+.tishi{
+	width: 1000px;
+	height: 40px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 15px;
+	line-height: 40px;
+	font-size: 14px;		
+}
+.tishi a{
+	color: #603913;
+}
+.tishi a:hover{
+	text-decoration: underline;
+}
+.center{
+	width: 900px;
+	height: 870px;
+	margin: 0 auto;
+	background: #947c56;
+	margin-top: 30px;
+	border-radius: 50px;
+	float: none;
+}
+.c_left{
+	width: 130px;
+	height: 870px;
+	float: left;
+	margin: 0 50px 0 60px;
+}
+.c_right{
+	width: 600px;
+	height: 870px;
+	margin-right: 60px;
+	float: right; 
+}
+h2{
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 22px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	color: white;
+}
+.c_button{
+	width: 130px;
+	height: 100px;
+	float: left;
+}
+.c_shi,.weidain{
+	width: 130px;
+	height: 30px;
+	margin-bottom: 10px;
+	
+}
+.dianji{
+	width: 130px;
+	height: 30px;
+	margin-bottom: 10px;	
+	/*position: relative;
+	top: -40px;*/
+}
+
+
+.c_dui,.weidain{
+	width: 130px;
+	height: 30px;
+	margin-bottom: 10px;
+	
+}
+.c_phone{
+	width: 130px;
+	height: 220px;
+	float: left;
+}
+.c_title{
+	width: 600px;
+	height: 30px;
+	float: left;
+	margin-top: 35px;
+}
+.c_neirong{
+	width: 570px;
+	height: 690px;
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+}
+.c_neir{
+	width: 570px;
+	height: 30px;	
+	float: left;
+}
+.li_pic{
+	width: 7px;
+	height: 16px;
+	margin: 7px 10px 7px 0;
+	float: left;
+}
+.li_text{
+	width: 463px;
+	height: 30px;
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+.li_text a{
+	color: white;
+}
+.li_text a:hover{
+	text-decoration: underline;
+}
+.li_date{
+	width: 90px;
+	height: 30px;
+	float: right;
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+}
+.c_yema{
+	width: 200px;
+	height: 16px;
+	float: right;
+	margin-top: 34px;
+	margin-right: 35px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.c_shye{
+	width: 30px;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+	font-size: 14px;
+}
+.c_shye a{
+	color: white;
+}
+.c_shye a:hover{
+	text-decoration: underline;
+}
+.c_zuo{
+	width: 10px;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+	margin: 0 10px;
+}
+.c_zuo a{
+	color: white;
+}
+.c_ym{	
+	width: 80px;
+	height: 16px;
+	float: left;
+}
+.c_number{
+	width: 16px;
+	height: 16px;
+	float: left;
+	text-align: center;
+	line-height: 16px;
+	font-size: 14px;
+}
+.c_number a{
+	color: white;
+}
+.c_number a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+
+

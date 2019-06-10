@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.all{
+	width: 100%;
+	margin: 0 auto;
+}
+.box{
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.5);	
+	position: relative;
+	top: 100px;
+	
+}
+.b_content{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+	top:120px;	
+}
+.close{
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

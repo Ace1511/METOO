@@ -1,0 +1,108 @@
+content{	
+	width: 100%;
+	height: 1947px;
+	float: left;
+	position: relative;
+	top: -220px;	
+	margin: 0 auto;		
+}
+.tishi{
+	width: 1000px;
+	height: 40px;
+	float: none;
+	margin: 0 auto;
+	margin-top: 15px;
+	line-height: 40px;
+	font-size: 14px;		
+}
+.tishi a{
+	color: #603913;
+}
+.tishi a:hover{
+	text-decoration: underline;
+}
+h1{
+	width: 1000px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding-top: 15px;
+	color: #947c56;	
+	margin:0 auto;	
+}
+hr{
+	width: 1000px;
+	height: 2px;
+	background: #947c56;
+	float: none	;
+	border: none;
+	/*margin-top: 10px;*/
+	margin: 0 auto;
+}
+.cont_pic{
+	width: 904px;
+	height: 635px;
+	float: none;
+    margin: auto;
+}
+.text02{
+	width: 1000px;
+	height: 20px;
+	font-size: 15px;	
+	float: none;
+	margin: 0 auto;
+	margin-top: 5px;
+	line-height: 20px;
+}
+.text02 a{
+	color: #947c56;
+}
+.text02 a:hover{
+	text-decoration: underline;
+}
+.fen_xiang{
+	width: 1000px;
+	height: 36px;	
+	margin: 0 auto;
+	float: none;	
+}
+.fx_text{
+	width: 60px;
+	height: 20px;
+	font-size: 15px;
+	color: #947c56;
+	float: right;
+}
+.fx_pic{
+	width: 36px;
+	height: 36px;
+	float: right;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
